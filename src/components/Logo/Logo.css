@@ -1,0 +1,59 @@
+.Tilt {
+  background: rgba(245, 153, 202, 1);
+  background: -moz-linear-gradient(
+    left,
+    rgba(245, 153, 202, 1) 0%,
+    rgba(245, 153, 202, 1) 4%,
+    rgba(0, 238, 255, 1) 51%,
+    rgba(158, 221, 255, 1) 72%,
+    rgba(20, 44, 255, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, rgba(245, 153, 202, 1)),
+    color-stop(4%, rgba(245, 153, 202, 1)),
+    color-stop(51%, rgba(0, 238, 255, 1)),
+    color-stop(72%, rgba(158, 221, 255, 1)),
+    color-stop(100%, rgba(20, 44, 255, 1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(245, 153, 202, 1) 0%,
+    rgba(245, 153, 202, 1) 4%,
+    rgba(0, 238, 255, 1) 51%,
+    rgba(158, 221, 255, 1) 72%,
+    rgba(20, 44, 255, 1) 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(245, 153, 202, 1) 0%,
+    rgba(245, 153, 202, 1) 4%,
+    rgba(0, 238, 255, 1) 51%,
+    rgba(158, 221, 255, 1) 72%,
+    rgba(20, 44, 255, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(245, 153, 202, 1) 0%,
+    rgba(245, 153, 202, 1) 4%,
+    rgba(0, 238, 255, 1) 51%,
+    rgba(158, 221, 255, 1) 72%,
+    rgba(20, 44, 255, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(245, 153, 202, 1) 0%,
+    rgba(245, 153, 202, 1) 4%,
+    rgba(0, 238, 255, 1) 51%,
+    rgba(158, 221, 255, 1) 72%,
+    rgba(20, 44, 255, 1) 100%
+  );
+  position: relative;
+}
+
+.pos {
+  position: absolute;
+  left: 10%;
+  top: -25%;
+}
