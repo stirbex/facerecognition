@@ -79,7 +79,7 @@ class App extends Component {
           onInputChange={this.onInputChange}
           onButtonSubmit={this.onSubmit}
         />
-        <FaceRecognition imageURL={this.state.imageURL} />
+        <FaceRecognition box={this.state.box} imageURL={this.state.imageURL} />
       </div>
     );
   }
