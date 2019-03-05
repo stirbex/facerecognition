@@ -44,7 +44,7 @@ class App extends Component {
     app.models
       .predict(
         "a403429f2ddf4b49b307e318f00e528b",
-        "https://samples.clarifai.com/face-det.jpg"
+        "https://samples.clarifai.com/face-det1.jpg"
       )
       .then(
         function(response) {
